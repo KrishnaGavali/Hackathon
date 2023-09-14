@@ -1,0 +1,141 @@
+body {
+    background-color: whitesmoke;
+    font-size: 2vw;
+    margin: 15px;
+}
+
+#navbar {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.navitem {
+    margin: 13px 45px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 1px;
+
+    background-color: black;
+    padding: 15px;
+    border-radius: 12px;
+
+
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.navitem:hover {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#logo {
+    height: 60px;
+}
+
+content {
+    margin: auto;
+    width: 90%;
+}
+
+#img1 {
+    position: relative;
+    top: 35px;
+    height: 170px;
+    width: 90%;
+    border-radius: 30px;
+    border: 5px solid darkgreen;
+    display: block;
+    margin: auto;
+    height: 26vw;
+
+}
+
+#info {
+    background-color: #1a2923;
+    padding: 30px 0px;
+    border-radius: 10px;
+    border: 5px solid black;
+    font-family: cursive;
+    color: whitesmoke;
+    position: relative;
+    top: 60px;
+    width: 90%;
+    margin: auto;
+
+}
+
+#info p {
+    margin: 20px 0px 0px 0px;
+    padding: 5px 20px;
+}
+
+ul {
+    position: relative;
+    left: 60px;
+}
+
+.button {
+    
+    margin: auto;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px 1px black;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: white;
+
+
+}
+
+.button a:hover {
+    color: black;
+
+}
+
+.box {
+    background-color: gainsboro;
+    height: 141vh;
+    border-radius: 30px;
+    border: 1px solid green;
+}
+
+/* making website responsive */
+/* @media  (max-width : 800px) {
+    .box {
+        height: 850px;
+    }
+}
+@media (max-width : 650px){
+    .box{
+        height: 870px;
+    }
+}
+@media (max-width : 590px){
+    .box {
+        height: 890px;
+    }
+}
+@media(max-width :530px ){
+   .box {
+    
+    height: 1130px;
+   }
+
+} */
